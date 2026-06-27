@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Selected projects by Aurora Studio – brand identity, web development, photography, and UI/UX design." />
+    <title>Aurora Studio | Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700;900&family=Playfair+Display:ital,wght@0,700;1,400&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+    <a href="#main-content" class="skip-link">Skip to Main Content</a>
+
+    <header class="site-header">
+        <div class="header-inner">
+            <a href="index.html" class="logo" aria-label="Aurora Studio – Home">
+                <span class="logo-icon" aria-hidden="true">✦</span>
+                <span class="logo-text">Aurora<em>Studio</em></span>
+            </a>
+            <nav class="primary-nav" aria-label="Primary navigation">
+                <ul class="nav-list">
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="index.html#services" class="nav-link">Services</a></li>
+                    <li><a href="portfolio.html" class="nav-link" aria-current="page">Portfolio</a></li>
+                    <li><a href="contact.html#team" class="nav-link">Team</a></li>
+                    <li><a href="contact.html" class="nav-link nav-cta">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main id="main-content" tabindex="-1">
+
+        <section class="portfolio" id="portfolio" aria-labelledby="portfolio-heading">
+            <div class="section-container">
+                <div class="section-header">
+                    <span class="section-tag">Our Work</span>
+                    <h1 id="portfolio-heading" class="section-title">Selected Projects</h1>
+                    <p class="section-intro">A curated selection of work we are proud to share. Hover over any project to take a closer look.</p>
+                </div>
+
+                <!-- GRID parent with >=2 columns; images use nth-child + hover -->
+                <div class="work-gallery">
+                    <figure class="work-item">
+                        <img src="images/nova.svg" width="800" height="600"
+                             alt="Nova Rebrand: violet and blue aurora identity concept for a fintech startup." />
+                        <figcaption>
+                            <span class="work-category">Brand Identity</span>
+                            <span class="work-name">Nova Rebrand</span>
+                        </figcaption>
+                    </figure>
+                    <figure class="work-item">
+                        <img src="images/bloom.svg" width="800" height="600"
+                             alt="Bloom Shop: pink and violet gradient artwork for an e-commerce storefront." />
+                        <figcaption>
+                            <span class="work-category">Web Development</span>
+                            <span class="work-name">Bloom Shop</span>
+                        </figcaption>
+                    </figure>
+                    <figure class="work-item">
+                        <img src="images/atlas.svg" width="800" height="600"
+                             alt="Atlas Lookbook: teal and pink editorial photography series cover." />
+                        <figcaption>
+                            <span class="work-category">Photography</span>
+                            <span class="work-name">Atlas Lookbook</span>
+                        </figcaption>
+                    </figure>
+                    <figure class="work-item">
+                        <img src="images/orbit.svg" width="800" height="600"
+                             alt="Orbit App: blue and violet interface design concept for a productivity tool." />
+                        <figcaption>
+                            <span class="work-category">UI / UX Design</span>
+                            <span class="work-name">Orbit App</span>
+                        </figcaption>
+                    </figure>
+                    <figure class="work-item">
+                        <img src="images/pulse.svg" width="800" height="600"
+                             alt="Pulse Campaign: pink and teal motion graphics key visual." />
+                        <figcaption>
+                            <span class="work-category">Illustration</span>
+                            <span class="work-name">Pulse Campaign</span>
+                        </figcaption>
+                    </figure>
+                    <figure class="work-item">
+                        <img src="images/lumen.svg" width="800" height="600"
+                             alt="Lumen Strategy: teal and violet artwork for a digital strategy engagement." />
+                        <figcaption>
+                            <span class="work-category">Digital Strategy</span>
+                            <span class="work-name">Lumen Strategy</span>
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-inner">
+            <div class="footer-brand">
+                <span class="logo-icon" aria-hidden="true">✦</span>
+                <span class="logo-text">Aurora<em>Studio</em></span>
+            </div>
+            <nav class="footer-nav" aria-label="Footer navigation">
+                <a href="index.html">Home</a>
+                <a href="index.html#services">Services</a>
+                <a href="portfolio.html">Portfolio</a>
+                <a href="contact.html#team">Team</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+            <p class="footer-copy">&copy; 2026 Aurora Studio. Crafted with HTML5 &amp; CSS3.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
